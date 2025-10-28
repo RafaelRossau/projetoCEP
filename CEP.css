@@ -1,0 +1,13 @@
+fieldset{
+width: 100px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50%;
+    position: relative;
+    top:250px;
+}
+h1{
+   position:relative;
+    left: 730px;
+}
