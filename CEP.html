@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCONTRA CEP</title>
+    <link rel="stylesheet" href="CEP.css">
+</head>
+<body>
+    <h1>BUSCADOR DE ENDEREÇO</h1>
+    <div id="pai">
+        <div id="main">
+            <div id="divisaorastreador">
+                <input id="CEP" type="text"/>
+                <button onclick="carregaEndereco()" id="botaoprocurador">Procurar</button>
+            </div>
+            <div id="divisaoendereco">
+                <label for="rua">Rua:</label>
+                <input id="rua" type="text"/>
+                <label for="bairro">Bairro:</label>
+                <input id="bairro" type="text"/>
+                <label for="cidade">Cidade:</label>
+                <input id="cidade" type="text"/>
+                <label for="estado">Estado:</label>
+                <input id="estado" type="text"/>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="CEP.js"></script>
+</html>
