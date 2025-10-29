@@ -1,13 +1,29 @@
 fieldset{
-width: 100px;
-    height: 200px;
+width: 500px;
+    height: 300px;
     display: flex;
     margin: 0 auto;
     margin-bottom: 50%;
     position: relative;
-    top:250px;
+    top:150px;
+    background-color:gray
 }
-h1{
-   position:relative;
-    left: 730px;
+
+
+.divisaoendereco2{
+    display: inline-block;
+     display: block;
+    
+}
+.divisaoendereco3{
+    display: inline-block;
+     display: block
+}
+.divisaoendereco4{
+    display: inline-block;
+     display: block
+}
+.divisaoendereco5{
+    display: inline-block;
+     display: block
 }
