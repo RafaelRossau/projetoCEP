@@ -22,7 +22,7 @@ fetch(url)
       console.log("erro no carregamento do endereço");
     });
 
-    if(CEP.length < 8){
+    if(CEP.length !== 8){
       alert("Quantidade de digitos incorreta, um CEP possui 8 digitos.")
     }
 }
